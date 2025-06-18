@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<http class="server"></http>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fitness Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Fitness Tracker</h1>
+
+  <section id="workout-form">
+    <label for="split">Split:</label>
+    <select id="split">
+      <option value="Push">Push</option>
+      <option value="Legs">Legs</option>
+      <option value="Pull">Pull</option>
+    </select>
+
+    <label for="muscle-group">Muscle Group:</label>
+    <input type="text" id="muscle-group" placeholder="e.g. Biceps" />
+
+    <label for="exercise">Exercise:</label>
+    <input type="text" id="exercise" placeholder="e.g. DB Curls" />
+
+    <label for="weight">Weight:</label>
+    <input type="number" id="weight" placeholder="lbs" />
+
+    <label for="reps">Reps:</label>
+    <input type="number" id="reps" placeholder="e.g. 8" />
+
+    <button id="log-btn">Log Set</button>
+  </section>
+
+  <section id="log">
+    <h2>Log</h2>
+    <ul id="log-list"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

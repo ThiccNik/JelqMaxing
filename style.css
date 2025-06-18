@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+  background: #111;
+  color: white;
+}
+
+label, input, select {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input, select {
+  padding: 0.5rem;
+  width: 200px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#log-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#log-list li span {
+  font-weight: bold;
+  color: red;
+  cursor: pointer;
+  user-select: none;
+}
